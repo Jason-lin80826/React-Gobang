@@ -8,13 +8,13 @@ const Square = styled.button`
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
   width: 5%;
-  height: 47.17px
+  min-height: 47.17px;
+  min-width: 47.17px
 `
 
 const ChessElement = styled.div`
